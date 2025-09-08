@@ -1,0 +1,9 @@
+import React from 'react'
+
+const Models = () => {
+  return (
+    <div><h1>modelsk</h1></div>
+  )
+}
+
+export default Models

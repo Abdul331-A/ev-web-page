@@ -13,7 +13,7 @@ const Hero = ({
   return (
     <>
       <section>
-        <div className="hero mt-[270px] mx-[120px]">
+        <div className="hero mt-[270px] mx-[120px] h-screen">
           <div className="hero-text text-white text-[110px] font-medium leading-32">
             <p>{heroData.text1}</p>
             <p>{heroData.text2}</p>

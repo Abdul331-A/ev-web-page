@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="relative">
         <Navbar />
         <Background playStatus={playStatus} heroCount={heroCount} />
         <Hero

@@ -8,19 +8,19 @@ const Background = ({ playStatus, heroCount }) => {
   
   if (playStatus) {
     return (
-      <video className="background h-full w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover fadeIn -z-10" autoPlay loop muted>
+      <video className="background h-screen w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover fadeIn -z-10" autoPlay loop muted>
         <source src={video1} type="video/mp4" />
       </video>
     );
   } else if (heroCount === 0) {
-    return <img src={image1} className="background h-full w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
+    return <img src={image1} className="background h-screen w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
 
   } else if (heroCount === 1) {
-    return <img src={image2} className="background h-full w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
+    return <img src={image2} className="background h-screen w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
   } else if (heroCount === 2) {
-    return <img src={image3} className="background h-full w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
+    return <img src={image3} className="background h-screen w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
   } else if (heroCount === 3) {
-    return <img src={image3} className="background h-full w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
+    return <img src={image3} className="background h-screen w-full float-left top-0 left-0 right-0 bottom-0 p-0 fixed object-cover -z-10 fadeIn" alt="" />;
   }
 };
 
